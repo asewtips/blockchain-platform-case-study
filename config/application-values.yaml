@@ -4,7 +4,7 @@ app:
   component: full-node
   partOf: blockchain-infrastructure
   workloadType: StatefulSet
-  replicas: 1
+  replicas: 2
 
 image:
   repository: blockstream/bitcoind
